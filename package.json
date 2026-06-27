@@ -1,0 +1,18 @@
+{
+  "name": "gsim-app",
+  "version": "1.0.0",
+  "description": "Sistema de gestão GSIM Comunicação Visual",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.7",
+    "cors": "^2.8.5"
+  }
+}
